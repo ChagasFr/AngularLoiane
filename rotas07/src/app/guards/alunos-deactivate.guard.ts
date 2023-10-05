@@ -1,4 +1,4 @@
-import { IFormCanDeactivate } from './iform-candeactivate';
+import { IFormCanDeactivate } from './form-candeactivate';
 import { Observable } from 'rxjs/Rx';
 import {
   ActivatedRouteSnapshot,
