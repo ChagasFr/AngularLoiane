@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DataFormComponent } from './data-form/data-form.component';
 import { TemplateFormModule } from './template-form/template-form.module';
+import { FormDebugComponent } from './shared/form-debug/form-debug.component';
 
 @NgModule({
-  declarations: [AppComponent, DataFormComponent],
+  declarations: [AppComponent, DataFormComponent, FormDebugComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
